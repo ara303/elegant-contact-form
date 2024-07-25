@@ -2,7 +2,10 @@
 A WordPress contact form that only does what you need it to.
 
 ## Quick start
-1. 
+1. Download [the source code](https://github.com/ara303/elegant-contact-form/releases/latest)
+2. Import the ZIP into WordPress
+3. Within the WP Admin, go to Settings > Elegant Contact Form and set your admin email and [reCAPTCHA v2](https://developers.google.com/recaptcha/docs/display) keys
+4. To embed the form in a post or page, use the shortcode `[elegant_contact_form]`
 
 ## The problem
 In practical applications (aka actual client websites) contact forms only ever really need to perform basic tasks. "I want to be able to capture the potential lead when someone wants to contact us, and I want to be sure I've captured it." There's countless form builder plugins that are good at capturing the input given to them and sending it off to an administrator's email, or maybe they  even a bit cleverer and they keep the form submission data and let you do some basic analytics on it... but then I run into issues tutoring my clients around weird UX decisions, predatory monetisation practices ("this feature you really need is actually paywalled for $199/year, lol"), and just... _bloat-y stuff_ in general. I don't bemoan developers for doing this but the monetisation means tends to feel a little manipulative to me.
