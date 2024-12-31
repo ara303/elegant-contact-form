@@ -159,6 +159,7 @@ class Elegant_Contact_Form {
                 $list_table->search_box('Search', 'search');
                 $list_table->display();
                 ?>
+                <input type="hidden" name="s" value="<?php echo esc_attr($list_table->get_search_query()); ?>" />
             </form>
         </div>
         <?php
