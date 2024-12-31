@@ -139,4 +139,8 @@ class Submissions_List_Table extends WP_List_Table {
             'total_pages' => ceil($total_items / $per_page)
         ));
     }
+
+    public function get_search_query() {
+        return isset($_REQUEST['s']) ? sanitize_text_field($_REQUEST['s']) : '';
+    }
 }
