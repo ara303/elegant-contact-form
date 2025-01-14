@@ -1,8 +1,11 @@
+> [!NOTE]
+> This isn't flexible enough for what I need out of a contact form (although I do still think it's close!) and I want to rework this to feature a field builder, configured programmatically, like what WPforms and others offer. I've removed the v1.0 release because it wasn't very good, but what is here does work! 😊
+
 # Elegant Contact Form
 A WordPress contact form that only does what you need it to.
 
 ## Quick start
-1. Download [the source code](https://github.com/ara303/elegant-contact-form/releases/latest)
+1. Download the source code
 2. Import the ZIP into WordPress
 3. Within the WP Admin, go to Settings > Elegant Contact Form and set your admin email and [reCAPTCHA v2](https://developers.google.com/recaptcha/docs/display) keys
 4. To embed the form in a post or page, use the shortcode `[elegant_contact_form]`
